@@ -398,8 +398,6 @@
     cursor: pointer;
 }
 
-/* rewrite this markUp here and HTML */
-
 .pw-works-skills-list-item-buttons-list-item {
     width: 448px;
     margin-top: 15px;
@@ -409,7 +407,36 @@
     margin-top: 0px;
 }
 
-/* rewrite this markUp here and HTML */
+/* PicsWorld */
+
+.pw-works-pics-wprld-container {
+    width: 448px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pw-works-pics-world-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    color: var(--Brand-color);
+    margin-top: 34px;
+}
+
+.pw-works-pics-world-subtitle {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    margin-top: 39px;
+}
+
+.pw-works-pics-world-img {
+    margin-top: 35px;
+}
 
 /* contacts */
 
