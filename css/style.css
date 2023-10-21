@@ -60,12 +60,18 @@
 }
 
 .pw-header-container {
+
+}
+
+.pw-header-mobile-menu-container {
     width: 1440px;
     display: flex;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
     padding: 24px;
+    flex-direction: column;
+    position: fixed;
 }
 
 .pw-header-list {
