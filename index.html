@@ -7,6 +7,7 @@
     <title>PortfolioWorks</title>
     <link rel="icon" href="./img/logo-(portfolio-works)-tiny-size-for-favicon.png">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css//media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;600&family=Merriweather:wght@300;400;700&family=Raleway:wght@800&family=Sofia+Sans+Extra+Condensed:wght@300;400;500;600;800&display=swap" rel="stylesheet">
@@ -16,13 +17,40 @@
 </head>
 <body onmousedown="return false" onselectstart="return false">
     <header class="pw-header">
-        <div class="pw-header-container">
-            <a href="./index.html">
+        <div class="pw-mobile-menu">
+            <div class="pw-mobile-menu-header-container">
+                <a href="./index.html">
+                    <svg class="pw-logo">
+                        <use href="./img/set-icons-and-logo-portfolio.svg#icon-logo-portfolio-works-developer-logo-header"></use>
+                    </svg>
+                    </a>
+                    <button class="pw-header-burger-button" type="button">
+                    <svg class="pw-header-burger-btn">
+                        <use href="./img/set-icons-and-logo-portfolio.svg#icon-mobile-menu-burger"></use>
+                    </svg>
+                </button> 
+            </div>
+        </div>
+        <div class="pw-header-container hidden">
+            <div class="pw-mobile-menu-container">
+                <a href="./index.html" class="pw-logo-mobile">
+                    <svg class="pw-header-logo">
+                        <use href="./img/set-icons-and-logo-portfolio.svg#icon-logo-portfolio-works-developer-logo-header"></use>
+                    </svg>
+                </a>
+                <button class="pw-header-close-btn">
+                    <svg class="pw-header-close-btn-svg">
+                        <use href="./img/set-icons-and-logo-portfolio.svg#icon-close"></use>
+                    </svg>
+                </button>
+            </div>
+            <a href="./index.html" class="logo">
                 <svg class="pw-header-logo">
                     <use href="./img/set-icons-and-logo-portfolio.svg#icon-logo-portfolio-works-developer-logo-header"></use>
                 </svg>
             </a>
-            <ul class="pw-header-list">
+            <nav class="pw-menu">
+              <ul class="pw-header-list">
                 <li class="pw-header-list-item">
                     <a class="pw-header-list-item-link" href="./index.html">
                     <svg class="pw-header-list-item-link-icon">
@@ -41,7 +69,9 @@
                         <use href="./img/set-icons-and-logo-portfolio.svg#icon-Contacts"></use>
                     </svg>Contacts</a>
                 </li>
-            </ul>
+            </ul>  
+            </nav>
+            
         </div>
     </header>
     <section class="pw-about-me">
@@ -121,6 +151,47 @@
                             </li>
                             <li class="pw-works-skills-list-item-buttons-list-item">
                                 <a class="pw-works-skills-list-item-button-link" href="https://github.com/VladM4526/shoes-store-website" target="_blank" rel="noopener nofollow noreferrer">Source code</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="pw-works-container">
+            <h2 class="pw-works-subtitle">JavaScript projects <span class="pw-works-subtitle-red">responsive</span></h2>
+        </div>
+        <div class="pw-works-skills-container">
+            <ul class="pw-works-skills-list">
+                <li class="pw-works-skills-list-item">
+                    <div class="pw-works-skills-list-item-image">
+                        <h1 class="pw-works-skills-list-item-image-title">Job</h1>
+                    </div>
+                    <h1 class="pw-works-skills-list-item-title">Landing Page</h1>
+                    <p class="pw-works-skills-list-item-title-text">Website ice cream</p>
+                    <div class="pw-works-skills-list-item-buttons-container">
+                        <ul class="pw-works-skills-list-item-buttons-list">
+                            <li class="pw-works-skills-list-item-buttons-list-item">
+                                <a class="pw-works-skills-list-item-button-link" href="">Check out</a>
+                            </li>
+                            <li class="pw-works-skills-list-item-buttons-list-item">
+                                <a class="pw-works-skills-list-item-button-link" href="">Source code</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="pw-works-skills-list-item">
+                    <div class="pw-works-skills-list-item-image">
+                        <h1 class="pw-works-skills-list-item-image-title">Job</h1>
+                    </div>
+                    <h1 class="pw-works-skills-list-item-title">Game Tic Tac Toe</h1>
+                    <p class="pw-works-skills-list-item-title-text">Play in game</p>
+                    <div class="pw-works-skills-list-item-buttons-container">
+                        <ul class="pw-works-skills-list-item-buttons-list">
+                            <li class="pw-works-skills-list-item-buttons-list-item">
+                                <a class="pw-works-skills-list-item-button-link">Check out</a>
+                            </li>
+                            <li class="pw-works-skills-list-item-buttons-list-item">
+                                <a class="pw-works-skills-list-item-button-link">Source code</a>
                             </li>
                         </ul>
                     </div>

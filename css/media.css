@@ -1,0 +1,644 @@
+@media screen and (max-width: 744px) {
+
+    /* mobile menu */
+
+    .pw-mobile-menu {
+        display: block;
+    }
+
+    .pw-logo {
+        width: 190px;
+        height: 45px;
+    }
+
+    .pw-header-burger-button {
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+
+    .pw-header-burger-btn {
+        width: 30px;
+        height: 30px;
+        color: #333333;
+    }
+
+    .pw-mobile-menu-header-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 16px;
+    }
+
+    .pw-header-container {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        transform: translateX(-100%);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        padding: 0;
+        overflow-y: scroll;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .pw-header-logo {
+        width: 190px;
+        height: 45px;
+    }
+
+    .pw-mobile-menu-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 16px;
+    }
+
+    .pw-header-close-btn {
+        background: #d9d9d9;
+        border: none;
+        border-radius: 50%;
+        outline: none;
+        width: 53px;
+        height: 53px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pw-header-close-btn-svg {
+        width: 33px;
+        height: 33px;
+    }
+
+    .pw-menu {
+        width: 130px;
+        margin: 0 auto;
+        margin-top: 256px;
+        margin-bottom: 325px;
+    }
+
+    .pw-header-list {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .pw-header-list-item {
+        margin-left: 0px;
+    }
+
+    .pw-header-list-item:nth-child(2) {
+        margin-top: 80px;
+    }
+
+    .pw-header-list-item:nth-child(3) {
+        margin-top: 80px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    /* section about me */
+
+    .pw-about-me-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .pw-about-me-info-container {
+        width: 350px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pw-about-me-info-title {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.46;
+        letter-spacing: 1.6px;
+    }
+
+    .pw-about-me-info-title-text {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.5;
+        letter-spacing: 0.8px;
+    }
+
+    .pw-about-me-info-button-list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .pw-about-me-info-button-list-item {
+        padding: 14px 76px;
+        width: 227px;
+        margin-left: 0px;
+        margin-top: 28px;
+    }
+    
+    .pw-about-me-info-button-list-item:first-child {
+        margin-top: 0px;
+    }
+
+    .pw-about-me-info-buttons-link {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.8px;
+    }
+
+    /* my picture */
+
+    .pw-about-me-picture-container {
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+
+    .pw-about-me-picture {
+        width: 190px;
+    }
+
+    /* Section work */
+
+    .pw-works-container {
+        width: 350px;
+    }
+
+    .pw-works-title {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.46;
+        letter-spacing: 1.6px;
+    }
+
+    .pw-works-subtitle {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+
+    .pw-works-skills-container {
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .pw-works-skills-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pw-works-skills-list-item {
+        width: 350px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    
+    .pw-works-skills-list-item:first-child {
+        margin-top: 0px;
+    }
+
+    .pw-works-skills-list-item-image {
+        width: 350px;
+    }
+
+    .pw-works-skills-list-item-title {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.46;
+        letter-spacing: 1.6px;
+        margin-top: 40px;
+    }
+
+    .pw-works-skills-list-item-title-text {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        margin-top: 24px;
+    }
+
+    .pw-works-skills-list-item-buttons-container {
+        margin-top: 23px;
+    }
+
+    .pw-works-skills-list-item-buttons-list-item {
+        width: 350px;
+        margin-top: 31px;
+    }
+
+    .pw-works-skills-list-item-buttons-list-item:first-child {
+        margin-top: 0px;
+    }
+
+    .pw-works-skills-list-item-button-link {
+        padding: 11px 113px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+
+    /* section my contacts */
+
+    .pw-contacts-container {
+        width: 350px;
+    }
+
+    .pw-contacts-title {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.46;
+        letter-spacing: 1.6px;
+    }
+
+    .pw-contacts-info-container {
+        display: flex;
+        width: 258px;
+        flex-direction: column;
+    }
+
+    .pw-contacts-personal-picture {
+        width: 190px;
+        margin-right: 0px;
+    }
+
+    .pw-contacts-list-item {
+        width: 258px;
+    }
+
+    .pw-contacts-list-item-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .pw-contacts-list-item-links {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        margin-left: 30px;
+    }
+
+    /* footer */
+
+    .pw-footer-container {
+        width: 350px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .pw-footer-button {
+        padding: 12px 60px;
+    }
+}
+
+@media screen and (min-width: 745px) and (max-width: 1439px) {
+
+    /* mobile menu */
+
+    .pw-mobile-menu {
+        display: block;
+    }
+
+    .pw-logo {
+        width: 190px;
+        height: 45px;
+    }
+
+    .pw-header-burger-button {
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+
+    .pw-header-burger-btn {
+        width: 30px;
+        height: 30px;
+        color: #333333;
+    }
+
+    .pw-mobile-menu-header-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 16px;
+    }
+
+    .pw-header-container {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        padding: 0;
+        overflow-y: scroll;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .pw-header-logo {
+        width: 190px;
+        height: 45px;
+    }
+
+    .pw-mobile-menu-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 16px;
+    }
+
+    .pw-header-close-btn {
+        background: #d9d9d9;
+        border: none;
+        border-radius: 50%;
+        outline: none;
+        width: 53px;
+        height: 53px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pw-header-close-btn-svg {
+        width: 33px;
+        height: 33px;
+    }
+
+    .pw-menu {
+        width: 130px;
+        margin: 0 auto;
+        margin-top: 256px;
+        margin-bottom: 325px;
+    }
+
+    .pw-header-list {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .pw-header-list-item {
+        margin-left: 0px;
+    }
+
+    .pw-header-list-item:nth-child(2) {
+        margin-top: 80px;
+    }
+
+    .pw-header-list-item:nth-child(3) {
+        margin-top: 80px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    /* section about me */
+
+    .pw-about-me-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .pw-about-me-info-container {
+        width: 350px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pw-about-me-info-title {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.46;
+        letter-spacing: 1.6px;
+    }
+
+    .pw-about-me-info-title-text {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+
+    .pw-about-me-info-button-list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .pw-about-me-info-button-list-item {
+        padding: 14px 65px;
+        width: 227px;
+        margin-left: 0px;
+        margin-top: 28px;
+    }
+
+    .pw-about-me-info-button-list-item:first-child {
+        margin-top: 0px;
+    }
+
+    .pw-about-me-info-buttons-link {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+
+    /* my picture */
+
+    .pw-about-me-picture-container {
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+
+    .pw-about-me-picture {
+        width: 190px;
+    }
+
+    /* Section work */
+
+    .pw-works-container {
+        width: 350px;
+    }
+
+    .pw-works-title {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.46;
+        letter-spacing: 1.6px;
+    }
+
+    .pw-works-subtitle {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+
+    .pw-works-skills-container {
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .pw-works-skills-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pw-works-skills-list-item {
+        width: 350px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .pw-works-skills-list-item:first-child {
+        margin-top: 0px;
+    }
+
+    .pw-works-skills-list-item-image {
+        width: 350px;
+    }
+
+    .pw-works-skills-list-item-title {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.46;
+        letter-spacing: 1.6px;
+        margin-top: 40px;
+    }
+
+    .pw-works-skills-list-item-title-text {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        margin-top: 24px;
+    }
+
+    .pw-works-skills-list-item-buttons-container {
+        margin-top: 23px;
+    }
+
+    .pw-works-skills-list-item-buttons-list-item {
+        width: 350px;
+        margin-top: 31px;
+    }
+
+    .pw-works-skills-list-item-buttons-list-item:first-child {
+        margin-top: 0px;
+    }
+
+    .pw-works-skills-list-item-button-link {
+        padding: 11px 113px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+
+    /* section my contacts */
+
+    .pw-contacts-container {
+        width: 350px;
+    }
+
+    .pw-contacts-title {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.46;
+        letter-spacing: 1.6px;
+    }
+
+    .pw-contacts-info-container {
+        display: flex;
+        width: 258px;
+        flex-direction: column;
+    }
+
+    .pw-contacts-personal-picture {
+        width: 190px;
+        margin-right: 0px;
+    }
+
+    .pw-contacts-list-item {
+        width: 258px;
+    }
+
+    .pw-contacts-list-item-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .pw-contacts-list-item-links {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        margin-left: 30px;
+    }
+
+    /* footer */
+
+    .pw-footer-container {
+        width: 350px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .pw-footer-button {
+        padding: 12px 60px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .pw-mobile-menu-header-container {
+        display: none;
+    }
+
+    .pw-header-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pw-header-logo {
+        width: 364px;
+        height: 85px;
+    }
+}

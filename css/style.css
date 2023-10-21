@@ -49,13 +49,15 @@
     --scroll-down: #BBBBBB;
 }
 
-/* header */
+/* header menu */
 
-.pw-header-logo {
-    height: 70px;
+.pw-header-logo-mobile-menu {
+    display: none;
 }
 
-/* header menu */
+.pw-mobile-menu-container {
+    display: none;
+}
 
 .pw-header-container {
     width: 1440px;
@@ -210,9 +212,6 @@
     background: var(--Brand-color);
     border-radius: 20px;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 1.5;
-    letter-spacing: 0.05em;
     text-align: center;
     color: var(--Button-color);
     cursor: pointer;
