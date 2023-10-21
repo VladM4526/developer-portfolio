@@ -34,7 +34,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        position: fixed;
+        padding: 16px;
     }
 
     .pw-header-container {
@@ -69,7 +69,6 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
-        padding: 16px;
     }
 
     .pw-header-close-btn {
@@ -330,8 +329,8 @@
     }
 
     .pw-logo {
-        width: 190px;
-        height: 45px;
+        width: 226px;
+        height: 53px
     }
 
     .pw-header-burger-button {
@@ -341,8 +340,8 @@
     }
 
     .pw-header-burger-btn {
-        width: 30px;
-        height: 30px;
+        width: 60px;
+        height: 60px;
         color: #333333;
     }
 
@@ -385,6 +384,12 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
+    }
+
+    .pw-header-mobile-menu-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
         padding: 16px;
     }
 
