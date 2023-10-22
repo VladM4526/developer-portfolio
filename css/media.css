@@ -367,7 +367,7 @@
     }
 
     .hidden {
-        transform: translateX(0px);
+        transform: translateX(0%);
         transition: transform 650ms cubic-bezier(.39, .01, .61, .99);
     }
 
