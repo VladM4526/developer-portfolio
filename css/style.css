@@ -42,7 +42,8 @@
 
 :root {
     --Brand-color: #E85802;
-    --Button-color: #FFFFFF;
+    --brand-color-unavailable: #DEA583
+    --button-color: #FFFFFF;
     --Button-color-hover: #BF4000;
     --Links-and-des: #333333;
     --Links-icons-hover: #FFFFFF;
@@ -201,7 +202,7 @@
     font-size: 24px;
     line-height: 1.5;
     letter-spacing: 0.05em;
-    color: var(--Button-color);
+    color: var(--Links-icons-hover);
 }
 
 .pw-about-me-info-button-list-item {
@@ -214,7 +215,6 @@
     border-radius: 20px;
     font-weight: 400;
     text-align: center;
-    color: var(--Button-color);
     cursor: pointer;
     transition: 250ms cubic-bezier(.94,-0.01,.15,.99);
     margin-bottom: 0px;
@@ -396,6 +396,15 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transition: 250ms cubic-bezier(.94,-0.01,.15,.99);
     cursor: pointer;
+}
+
+.pw-works-skills-list-item-button-link-unavailable {
+    background: var(--brand-color-unavailable);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    text-align: center;
 }
 
 .pw-works-skills-list-item-buttons-list-item {

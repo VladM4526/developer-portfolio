@@ -35,3 +35,8 @@ pwAllVector.forEach((value) => {
     evt.preventDefault();
   };
 });
+
+// button unavailable
+
+const buttonDisable = document.getElementById("unavailable");
+buttonDisable.disable = true;
