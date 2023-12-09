@@ -398,15 +398,6 @@
     cursor: pointer;
 }
 
-.pw-works-skills-list-item-button-link-unavailable {
-    background: var(--brand-color-unavailable);
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 1.2px;
-    text-align: center;
-}
-
 .pw-works-skills-list-item-buttons-list-item {
     width: 448px;
     margin-top: 15px;
