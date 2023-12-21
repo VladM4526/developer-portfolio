@@ -1,3 +1,4 @@
+import { addBackToTop } from "vanilla-back-to-top";
 // mobile menu
 
 const pwOpenModalBtn = document.querySelector(".pw-header-burger-button");
@@ -20,18 +21,16 @@ function closeMenu() {
   pwOpenModal.classList.remove("hidden");
 }
 
-// disable download picture
+// disable any copy element
 
-let pwAllImages = document.querySelectorAll("img");
-pwAllImages.forEach((value) => {
-  value.oncontextmenu = (evt) => {
-    evt.preventDefault();
-  };
+document.addEventListener("contextmenu", (evt) => {
+  evt.preventDefault();
 });
 
-let pwAllVector = document.querySelectorAll("svg");
-pwAllVector.forEach((value) => {
-  value.oncontextmenu = (evt) => {
-    evt.preventDefault();
-  };
+// button on top
+
+addBackToTop({
+  diameter: 66,
+  backgroundColor: "#D9D9D9",
+  textColor: "#333333",
 });
