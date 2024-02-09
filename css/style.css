@@ -407,6 +407,26 @@
     margin-top: 0px;
 }
 
+/* website picsworld */
+
+.pw-works-website-picsworld {
+    width: 448px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.pw-works-skills-list-item-image-website {
+    width: 448px;
+    margin-top: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.pw-works-website-picsworld-container {
+    margin-top: 70px;
+}
+
 /* contacts */
 
 .pw-contacts {

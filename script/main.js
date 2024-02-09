@@ -5,20 +5,16 @@ const pwOpenModalBtn = document.querySelector(".pw-header-burger-button");
 const pwOpenModal = document.querySelector(".pw-header-container");
 const pwCloseModalBtn = document.querySelector(".pw-header-close-btn");
 
-const pwItemList = document.querySelector(".pw-header-list-item");
-const pwItemLink = document.querySelector(".pw-header-list-item-link");
+const pwItemList = document.querySelectorAll(".pw-header-list-item");
 
 pwOpenModalBtn.addEventListener("click", SsToggleModal);
 pwCloseModalBtn.addEventListener("click", SsToggleModal);
+pwItemList.forEach((item) => {
+  item.addEventListener("click", SsToggleModal);
+});
 
 function SsToggleModal() {
   pwOpenModal.classList.toggle("hidden");
-}
-
-pwItemLink.addEventListener("click", closeMenu);
-
-function closeMenu() {
-  pwOpenModal.classList.remove("hidden");
 }
 
 // disable any copy element
